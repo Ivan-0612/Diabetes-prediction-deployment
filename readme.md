@@ -17,3 +17,5 @@ Una aplicación web interactiva construida con **Streamlit** y **Machine Learnin
 └── README.md             # Documentación del proyecto
 
 ```
+
+El proyecto esta desplegado en Render: https://diabetes-prediction-rlji.onrender.com/
