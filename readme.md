@@ -1,21 +1,22 @@
-# Sistema de Predicción de Diabetes
+# Diabetes Prediction System
 
-Una aplicación web interactiva construida con **Streamlit** y **Machine Learning** que predice la probabilidad de que un paciente padezca diabetes basándose en datos demográficos, hábitos y métricas médicas.
+An interactive web application built with Streamlit and Machine Learning that predicts the probability of a patient having diabetes based on demographic data, habits, and medical metrics.
+Features
 
-## Características
+## Features
 
-* **Formulario Interactivo:** Entrada de datos sencilla para el usuario (edad, IMC, glucosa, etc.).
-* **Predicción en Tiempo Real:** Utiliza un modelo de Regresión Logística entrenado para calcular el riesgo al instante.
-* **Explicabilidad (XAI):** Muestra gráficos de **SHAP** para explicar qué variables aumentaron o disminuyeron el riesgo del paciente específico.
+* Interactive Form: Simple data entry for the user (age, BMI, glucose, etc.).
+* Real-Time Prediction: Uses a trained Logistic Regression model to calculate risk instantly.
+* Explainability (XAI): Displays SHAP plots to explain which variables increased or decreased the specific patient's risk.
 
-## Estructura del Proyecto
+## Project Structure
 
 ```text
-├── app.py                # Código principal de la aplicación Streamlit
-├── deploy_model.pkl      # Modelo entrenado (Pipeline + Regresión Logística)
-├── requirements.txt      # Lista de librerías necesarias
-└── README.md             # Documentación del proyecto
+├── app.py                # Main Streamlit application code
+├── deploy_model.pkl      # Trained model (Pipeline + Logistic Regression)
+├── requirements.txt      # List of required libraries
+└── README.md             # Project documentation
 
 ```
 
-El proyecto esta desplegado en Render: https://diabetes-prediction-rlji.onrender.com/
+The project is deployed on Render: https://diabetes-prediction-rlji.onrender.com/
